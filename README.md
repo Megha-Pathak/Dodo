@@ -19,7 +19,7 @@ In addition to hanging around, LadeBug is also responsible enough to set 15 minu
 
 LadeBug is working on her memory and remembers the links to developer-friendly sites like StackOverflow, GitHub, Reddit and CodePen.
 
-LadeBug is also fairly shy, so don't try touching her with the mouse pointer or he may try dodging you. :wink:
+LadeBug is also fairly shy, so don't try touching her with the mouse pointer or she may try dodging you. :wink:
 
 ## Set-Up Instructions
 
