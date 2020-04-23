@@ -3,9 +3,6 @@
 LadeBug </h1>
 
 
-[![LadeBug says](https://img.shields.io/badge/LadeBug%20says-%22Hi%22-yellow.svg)]()
-[![Publish status](https://img.shields.io/badge/Publish%20Status-Pending-orange.svg)]()
-
 ### Meet your online digital Ladybug for companionship & debugging -- LadeBug! 
 
 A chrome extension to overlay a tiny, adorable ladybug, as a digital companion during debugging and general development work. Why? 'cause who doesn't want a cute ladybug on their browser.
