@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="resources/img/ladebug128.png"/><br>
-LadeBug </h1>
+  <img src="resources/img/ducky128.png"/><br>
+Dodo the Duck</h1>
 
 
-### Meet your online digital Ladybug for companionship & debugging -- LadeBug! 
+### Meet your online digital Ladybug for companionship & debugging -- Dodo the Duck! 
 
 A chrome extension to overlay a tiny, adorable ladybug, as a digital companion during debugging and general development work. Why? 'cause who doesn't want a cute ladybug on their browser.
 
@@ -13,23 +13,25 @@ A chrome extension to overlay a tiny, adorable ladybug, as a digital companion d
 
 
 
-Meet **LadeBug**, your adorable digital companion whom you can talk to, and debug with. 
+Meet **Dodo the Duck**, your adorable digital companion whom you can talk to, and debug with. 
 
-In addition to hanging around, LadeBug is also responsible enough to set 15 minute alarms, should you want a short break soon, and not lose track of time.
+Dodo hangs around, and be responsible enough to set 15 minute alarms, should you want a short break soon, and not lose track of time.
 
-LadeBug is working on her memory and remembers the links to developer-friendly sites like StackOverflow, GitHub, Reddit and CodePen.
+Dodo also remembers the links to developer-friendly sites like StackOverflow, GitHub, Reddit and CodePen.
 
-LadeBug is also fairly shy, so don't try touching her with the mouse pointer or she may try dodging you. :wink:
+You can also add the links you find useful to her memory by using the customization options. 
+
 
 ## Set-Up Instructions
 
-So you too want a LadeBug of your own, eh?
+Want Dodo the Duck in your Own system - 
 
 It's easy! 
+
 * Download the contents of this repository, and then go to ```chrome://extensions```
 * Enable Developer Mode, if you haven't.
 * Select ```Load Unpacked```
 * Find the folder that contains all the files in this repository and select it.
-* Ta-da! LadeBug has arrived!
+* Ta-da! Dodo has arrived!
 
 

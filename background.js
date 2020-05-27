@@ -1,6 +1,6 @@
 'use strict';
 
-const sound = new Audio("resources/audio/sound.mp3");
+const quack = new Audio("resources/audio/quack.mp3");
 
 chrome.alarms.onAlarm.addListener(function () {
     chrome.browserAction.setBadgeText({text: ''});
@@ -9,15 +9,15 @@ chrome.alarms.onAlarm.addListener(function () {
         soundEnabled: true
     }, function (result) {
         if (result.soundEnabled) {
-            sound.play();
+            quack.play();
         }
     });
 
     chrome.notifications.create({
         type: 'basic',
-        iconUrl: 'resources/img/ladebug.png',
+        iconUrl: 'resources/img/ducky.png',
         title: 'Time\'s up!',
-        message: 'Beep!',
+        message: 'Quack!',
         buttons: [
             {title: 'You set an alarm to ring now.'}
         ],

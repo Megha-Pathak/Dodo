@@ -1,16 +1,9 @@
 {
-  "name": "LadeBug",
+  "name": "Dodo the Duck",
   "description": "Digital Companion for Developers",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": [
-    "tabs",
-    "bookmarks",
-    "http://www.blogger.com/",
-    "http://www.google.com/",
-    "http://*.google.com/",
-    "unlimitedStorage", "alarms", "notifications", "storage"
-  ],
+  "permissions": ["alarms", "notifications", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -20,11 +13,11 @@
     "open_in_tab": false
   },
   "browser_action": {
-    "default_title": "LadeBug Sound",
+    "default_title": "Ducky Quack",
     "default_popup": "popup.html",
     "default_icon": {
-      "48": "resources/img/ladebug48.png",
-      "128": "resources/img/ladebug128.png"
+      "48": "resources/img/ducky48.png",
+      "128": "resources/img/ducky128.png"
     }
   },
   "commands": {
@@ -33,11 +26,12 @@
         "default": "Ctrl+Shift+Y",
         "mac": "MacCtrl+Shift+Y"
       },
-      "description": "Opens LadeBug"
+      "description": "Opens Dodo"
     }
   },
   "icons": {
-    "48": "resources/img/ladebug48.png",
-    "128": "resources/img/ladebug128.png"
+    "48": "resources/img/ducky48.png",
+    "128": "resources/img/ducky128.png"
   }
+  
 }

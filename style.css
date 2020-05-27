@@ -61,7 +61,7 @@ body {
     text-align: center;
 }
 
-#LadeBugImage {
+#duckyImage {
     width: 130px;
     margin: 5px;
     display: inline-block;
@@ -76,7 +76,7 @@ body {
     transition-property: transform;
 }
 
-#LadeBugImage:hover {
+#duckyImage:hover {
     cursor: pointer;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;

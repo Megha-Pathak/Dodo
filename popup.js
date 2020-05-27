@@ -1,6 +1,6 @@
 'use strict';
 
-const sound = document.getElementById('sound');
+const quack = document.getElementById('quack');
 /*The pharses where copyed from https://github.com/jameshughes89/DougtheDuck/blob/master/app/src/main/java/com/jameshughes89/dougtheduck/DebugTipsEnglish.java
   Thanks for this nice Work!*/
 const duckTexts = [
@@ -93,10 +93,10 @@ async function loadSettings() {
     });
 }
 
-function playSound() {
+function playQuack() {
     // Search a random String fom the Array with Dev phrases
     var position = Math.floor(Math.random() * duckTexts.length);
-    // get the div around the LadebugImage
+    // get the div around the duckyImage
     var imageDiv = document.getElementById('imageDiv');
     // try to remove exsisting SpeechBubbles
     try {
@@ -104,18 +104,18 @@ function playSound() {
     } catch (err) {
         //console.log(err);
     }
-    // get LadeBugImage by id
-    var LadeBugImage = document.getElementById('LadeBugImage');
+    // get duckyImage by id
+    var duckyImage = document.getElementById('duckyImage');
     // create new <p>
     var speechBubble = document.createElement("p");
     // set the id, class, Text of the <p>
     speechBubble.id = "speechBubble";
     speechBubble.className = "speech";
     speechBubble.innerHTML = duckTexts[position];
-    // insert <p> before the LadeBugImage
-    imageDiv.insertBefore(speechBubble, LadeBugImage);
-    // play the Sound
-    sound.play();
+    // insert <p> before the duckyImage
+    imageDiv.insertBefore(speechBubble, duckyImage);
+    // play the Quack Sound
+    quack.play();
     // remove SpeechBubble after 5 secons
     setTimeout(function () {
         imageDiv.removeChild(speechBubble);
@@ -152,25 +152,10 @@ function setSoundSetting(event) {
     });
 }
 
-/*function searchGoogle() {
-   if (searchResultTarget) {
-      window.location.href = "https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+');
-   } else {
-       var win = window.open("https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+'), '_blank');
-        win.focus();
-    }
-}*/
 
 
 document.addEventListener('DOMContentLoaded', loadSettings);
-document.getElementById('LadeBugImage').addEventListener('click', playSound);
+document.getElementById('duckyImage').addEventListener('click', playQuack);
 document.getElementById('15min').addEventListener('click', setAlarm);
 document.getElementById('cancelAlarm').addEventListener('click', clearAlarm);
 document.getElementById('sound').addEventListener('change', setSoundSetting);
-document.getElementById('searchButton').addEventListener('click', searchGoogle);
-document.getElementById('searchTextInput').addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
-        searchGoogle();
-        return;
-    }
-}, false);
