@@ -34,4 +34,4 @@ It's easy!
 * Find the folder that contains all the files in this repository and select it.
 * Ta-da! Dodo has arrived!
 
-
+<!-- This is my First JavaScript Project, the main inspiration behind this project is https://github.com/RameshAditya/ and his work on Ducky extension. Dodo the Duck is the clone of Ducky, that I coded myself.  --> 
