@@ -152,14 +152,14 @@ function setSoundSetting(event) {
     });
 }
 
-function searchGoogle() {
-    if (searchResultTarget) {
-        window.location.href = "https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+');
-    } else {
-        var win = window.open("https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+'), '_blank');
+/*function searchGoogle() {
+   if (searchResultTarget) {
+      window.location.href = "https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+');
+   } else {
+       var win = window.open("https://www.google.com/search?q=" + document.getElementById('searchTextInput').value.replace(' ', '+'), '_blank');
         win.focus();
     }
-}
+}*/
 
 
 document.addEventListener('DOMContentLoaded', loadSettings);
