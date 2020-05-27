@@ -5,7 +5,7 @@ Dodo the Duck</h1>
 
 ### Meet your online digital Duck for companionship & debugging -- Dodo the Duck! 
 
-A chrome extension to overlay a tiny, adorable ladybug, as a digital companion during debugging and general development work. Why? 'cause who doesn't want a cute ladybug on their browser.
+A chrome extension to overlay a tiny, adorable duck, as a digital companion during debugging and general development work. Why? 'cause who doesn't want a cute duck on their browser.
 
 
 
