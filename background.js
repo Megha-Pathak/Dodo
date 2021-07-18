@@ -15,7 +15,7 @@ chrome.alarms.onAlarm.addListener(function () {
 
     chrome.notifications.create({
         type: 'basic',
-        iconUrl: 'resources/img/ducky.png',
+        iconUrl: 'resources/img/ducky1.png',
         title: 'Time\'s up!',
         message: 'Quack!',
         buttons: [
